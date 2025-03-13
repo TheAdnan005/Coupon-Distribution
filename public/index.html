@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coupon Distribution System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Coupon Distribution System</h1>
+
+        <div class="instructions">
+            <p>Welcome! This system distributes coupons in a round-robin fashion. Each user can claim only one coupon
+                per hour.</p>
+        </div>
+
+        <div id="messageContainer" class="message info">
+            Click the button below to claim your coupon.
+        </div>
+
+        <button id="claimButton">Claim Your Coupon</button>
+
+        <div id="couponCard" class="coupon-card">
+            <h3>Your Coupon Code</h3>
+            <p class="coupon-code" id="couponCode"></p>
+            <p>Use this code at checkout for a special discount!</p>
+        </div>
+
+        <footer>
+            <p>Coupon Distribution System with Abuse Prevention &copy; 2025</p>
+        </footer>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>
